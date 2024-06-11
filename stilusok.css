@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    background-color: #f0f0f0; /* világos szürke */
+    font-size: 110%;
+}
+#doboz {
+    background-color: #d7e8d8; /* pasztell zöld */
+    margin: 0 auto;
+    width: 980px;
+    padding: 0 5px;
+}
+header {
+    background: linear-gradient(to bottom, #a8d5e2, #d7e8d8);
+    height: 190px;
+    font-family: "Breadly Hand ITC", cursive;
+    color: #ffffff; /* fehér */
+    font-size: 6.5rem;
+    text-shadow: 5px 5px #888888; /* szürke árnyék */
+    border-bottom: 3px #d7e8d8 solid; /* pasztell zöld */
+}
+aside {
+    float: left;
+    width: 250px;
+    padding: 10px;
+}
+main {
+    float: right;
+    width: 680px;
+    padding: 10px;
+    line-height: 1.2;
+    background-color: #a8d5e2; /* világos kék */
+}
+#kep {
+    float: right;
+    box-shadow: 5px 5px #a8d5e2; /* világos kék árnyék */
+}
+
+footer {
+    clear: both;
+    padding: 5px;
+    background-color: #a8d5e2; /* világos kék */
+    text-align: center;
+    border-top: 3px solid #d7e8d8; /* pasztell zöld */
+    font-weight: bold;
+}
